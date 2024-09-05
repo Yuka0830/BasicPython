@@ -1,7 +1,6 @@
-import math
-from math import sin
+from math import sin,pi
 a=0
-b=math.pi / 2
+b=pi / 2
 N=100
 h=(b-a) / N
 S=0
