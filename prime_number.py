@@ -1,4 +1,16 @@
 a = int(input("aの値を入力: "))
+<<<<<<< HEAD
+=======
+i=2
+while i<a:
+    if a%i==0:
+        print("素数でない")
+        break
+    i+=1
+if i>=a:
+    print("素数である")
+
+>>>>>>> parent of ce64cb7 (Python入門の解答)
 b = int(input("bの値を入力: "))
 
 def prime(n):
