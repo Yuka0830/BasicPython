@@ -10,6 +10,9 @@ while i<a:
 if i>=a:
     print("素数である")
 
+<<<<<<< HEAD
+>>>>>>> parent of ce64cb7 (Python入門の解答)
+=======
 >>>>>>> parent of ce64cb7 (Python入門の解答)
 b = int(input("bの値を入力: "))
 
