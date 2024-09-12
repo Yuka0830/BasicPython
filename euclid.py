@@ -8,9 +8,9 @@ while a!=b:
         print(a)
         break
     elif a>b:
-        a-=b
+        a%=b
     else:
-        b-=a
+        b%=a
 if a==b:
     print(a)
     
