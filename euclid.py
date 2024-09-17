@@ -11,7 +11,6 @@ def euclid(a,b):
       return a
     else:
       a,b=b,a%b
-  #if a==b:
   return a
 
 def euclid2(a,b):
