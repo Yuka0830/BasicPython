@@ -7,16 +7,12 @@ def euclid(a,b):
   while a!=b:
     if a==0:
       return b
-      break
     elif b==0:
       return a
-      break
-    elif a>b:
-      a%=b
     else:
-      b%=a
-  if a==b:
-    return a
+      a,b=b,a%b
+  #if a==b:
+  return a
 
 def euclid2(a,b):
   return euclid(a,b)==1
@@ -33,4 +29,4 @@ def extra(pairs,min,max):
       count+=1
   return count/pairs
 
-print(extra(100000,1,10000),6/(pi**2))
+print(extra(100000,1,10000),6/(math.pi**2))
