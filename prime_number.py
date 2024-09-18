@@ -1,5 +1,5 @@
-a = input("aの値を入力: ")
-b = input("bの値を入力: ")
+a = int(input("aの値を入力: "))
+b = int(input("bの値を入力: "))
 
 def prime(n):
  if not isinstance(n, int):
