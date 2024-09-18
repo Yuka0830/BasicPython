@@ -1,9 +1,11 @@
-a = int(input("aの値を入力: "))
-b = int(input("bの値を入力: "))
+a = input("aの値を入力: ")
+b = input("bの値を入力: ")
 
 def prime(n):
- if isinstance(n, int)==False or n<1:
-   return "error"
+ if not isinstance(n, int):
+   raise TypeError("整数を入力してください")
+ if n<1:
+   raise ValueError("1より大きい整数を入力してください")
  elif n==1:
    return False
  elif n<=3:
