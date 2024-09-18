@@ -4,13 +4,8 @@ a=int(input("a の値を入力: "))
 b=int(input("b の値を入力: "))
 
 def euclid(a,b):
-  while a!=b:
-    if a==0:
-      return b
-    elif b==0:
-      return a
-    else:
-      a,b=b,a%b
+  while b>0:
+    a,b=b,a%b
   return a
 
 def euclid2(a,b):
